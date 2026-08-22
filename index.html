@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SpeakUp — Learn Public Speaking from Basics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="assets/logo.png" />
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="nav">
+  <div class="container nav__inner">
+    <a class="nav__logo" href="#course"><img src="assets/logo.png" alt="SpeakUp" /></a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#course">Course</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#curriculum">Curriculum</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#faqs">FAQs</a>
+    </nav>
+
+    <a href="#enroll" class="btn btn--primary btn--sm nav__cta">
+      Enroll Now
+      <svg viewBox="0 0 24 24" class="ico"><path d="M4 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="course">
+  <div class="container hero__inner">
+
+    <div class="hero__copy">
+      <span class="pill">START YOUR CONFIDENCE JOURNEY</span>
+
+      <h1 class="hero__title">
+        Learn Public<br />
+        <span class="grad">Speaking</span><br />
+        from Basics
+      </h1>
+
+      <p class="hero__sub">
+        Master the art of speaking with clarity, confidence, and impact.<br />
+        Express your ideas. Inspire any audience.
+      </p>
+
+      <ul class="usp">
+        <li class="usp__item">
+          <span class="usp__ico">
+            <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.2"/><path d="M3.5 18c0-3 2.5-4.6 5.5-4.6s5.5 1.6 5.5 4.6"/><path d="M16 13.8c2.6.1 4.5 1.6 4.5 4.2"/></svg>
+          </span>
+          <span class="usp__txt">Beginner<br />Friendly</span>
+        </li>
+        <li class="usp__item">
+          <span class="usp__ico">
+            <svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11v16H6.5A2.5 2.5 0 0 0 4 21.5z"/><path d="M20 5.5A2.5 2.5 0 0 0 17.5 3H13v16h4.5a2.5 2.5 0 0 1 2.5 2.5z"/></svg>
+          </span>
+          <span class="usp__txt">Practical<br />Lessons</span>
+        </li>
+        <li class="usp__item">
+          <span class="usp__ico">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 1.8"/></svg>
+          </span>
+          <span class="usp__txt">Lifetime<br />Access</span>
+        </li>
+        <li class="usp__item">
+          <span class="usp__ico">
+            <svg viewBox="0 0 24 24"><path d="M4 19V9"/><path d="M10 19V5"/><path d="M16 19v-7"/><path d="M21 19H3"/></svg>
+          </span>
+          <span class="usp__txt">Learn at Your<br />Own Pace</span>
+        </li>
+      </ul>
+
+      <div class="hero__cta">
+        <a href="#enroll" class="btn btn--primary btn--lg">
+          Enroll Now
+          <svg viewBox="0 0 24 24" class="ico"><path d="M4 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+
+        <a href="#preview" class="playlink">
+          <span class="playlink__circle">
+            <svg viewBox="0 0 24 24" class="ico-fill"><path d="M9 6.5v11l9-5.5z"/></svg>
+          </span>
+          Watch Preview
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__visual">
+      <img class="hero__img" src="assets/hero.png" alt="Confident speaker holding a microphone" />
+
+      <div class="fcard fcard--learners">
+        <span class="fcard__ico fcard__ico--violet">
+          <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.2"/><path d="M3.5 18c0-3 2.5-4.6 5.5-4.6s5.5 1.6 5.5 4.6"/><path d="M16 13.8c2.6.1 4.5 1.6 4.5 4.2"/></svg>
+        </span>
+        <div>
+          <strong>10,000+</strong>
+          <small>Happy Learners</small>
+        </div>
+      </div>
+
+      <div class="fcard fcard--rating">
+        <span class="fcard__star">
+          <svg viewBox="0 0 24 24" class="ico-fill"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>
+        </span>
+        <div>
+          <strong>4.8/5</strong>
+          <small>Course Rating</small>
+        </div>
+      </div>
+
+      <figure class="quote">
+        <span class="quote__mark">&ldquo;</span>
+        <blockquote>This course helped me overcome my fear and speak with confidence in meetings and interviews.</blockquote>
+        <figcaption>— <strong>Ankit,</strong> Learner</figcaption>
+      </figure>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= BENEFITS ================= -->
+<section class="section" id="benefits">
+  <div class="container">
+    <div class="head">
+      <span class="pill">WHY THIS COURSE?</span>
+      <h2>Speak with <span class="grad">Confidence. Inspire</span> Everywhere.</h2>
+    </div>
+
+    <div class="grid grid--4">
+      <article class="card card--benefit">
+        <span class="bico">
+          <svg viewBox="0 0 24 24"><path d="M12 3l7 3v5.5c0 4.3-2.9 7.7-7 9.5-4.1-1.8-7-5.2-7-9.5V6z"/><path d="M9.2 12.2l2 2 3.6-3.8"/></svg>
+        </span>
+        <h3>Overcome Fear</h3>
+        <p>Tackle stage fear and build real confidence step by step.</p>
+      </article>
+
+      <article class="card card--benefit">
+        <span class="bico">
+          <svg viewBox="0 0 24 24"><rect x="9" y="2.5" width="6" height="11" rx="3"/><path d="M5.5 11.5a6.5 6.5 0 0 0 13 0"/><path d="M12 18v3.5"/></svg>
+        </span>
+        <h3>Clear Communication</h3>
+        <p>Learn to express your ideas clearly and effectively.</p>
+      </article>
+
+      <article class="card card--benefit">
+        <span class="bico">
+          <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.2"/><path d="M3.5 18c0-3 2.5-4.6 5.5-4.6s5.5 1.6 5.5 4.6"/><path d="M16 13.8c2.6.1 4.5 1.6 4.5 4.2"/></svg>
+        </span>
+        <h3>Engage Any Audience</h3>
+        <p>Keep your audience interested and make an impact.</p>
+      </article>
+
+      <article class="card card--benefit">
+        <span class="bico">
+          <svg viewBox="0 0 24 24"><path d="M13.5 3.5c3.6.6 6.4 3.4 7 7-2.6 5-6.2 8-10.8 9L6 15.3C7 10.7 9 7.1 13.5 3.5z"/><circle cx="14.8" cy="9.2" r="1.6"/><path d="M6.4 16.4c-1.3.6-2 1.9-2.2 4 2.1-.2 3.4-.9 4-2.2"/></svg>
+        </span>
+        <h3>Advance Your Career</h3>
+        <p>Strong communication opens doors to better opportunities.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CURRICULUM ================= -->
+<section class="section section--tint" id="curriculum">
+  <div class="container">
+    <div class="head">
+      <span class="pill">WHAT YOU'LL LEARN</span>
+      <h2>From Basics to <span class="grad">Confident Speaker</span></h2>
+    </div>
+
+    <div class="curr">
+      <ol class="steps">
+        <li class="step is-active">
+          <span class="step__no">01</span>
+          <div>
+            <h4>Foundation</h4>
+            <p>Understand the basics of public speaking and build your mindset.</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step__no">02</span>
+          <div>
+            <h4>Voice &amp; Body Language</h4>
+            <p>Improve your voice, tone, and body language to connect better.</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step__no">03</span>
+          <div>
+            <h4>Content &amp; Structure</h4>
+            <p>Learn how to organize your thoughts and structure your speech.</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step__no">04</span>
+          <div>
+            <h4>Delivery &amp; Engagement</h4>
+            <p>Deliver powerful speeches and engage your audience with confidence.</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step__no">05</span>
+          <div>
+            <h4>Practice &amp; Feedback</h4>
+            <p>Apply your learning with practice exercises and feedback.</p>
+          </div>
+        </li>
+      </ol>
+
+      <div class="player" id="preview">
+        <img src="assets/video.jpg" alt="Microphone on stage in front of an audience" />
+        <a href="#enroll" class="player__play" aria-label="Play course preview">
+          <svg viewBox="0 0 24 24" class="ico-fill"><path d="M9 6.5v11l9-5.5z"/></svg>
+        </a>
+
+        <div class="stats">
+          <div class="stat"><strong>30+</strong><span>Video Lessons</span></div>
+          <div class="stat"><strong>5+</strong><span>Hours of Content</span></div>
+          <div class="stat"><strong class="grad">Lifetime</strong><span>Access</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= REVIEWS ================= -->
+<section class="section" id="reviews">
+  <div class="container">
+    <div class="head">
+      <span class="pill">LOVED BY LEARNERS</span>
+      <h2>Real People. Real <span class="grad">Results.</span></h2>
+    </div>
+
+    <div class="grid grid--3">
+      <article class="card card--review">
+        <div class="stars">★★★★★</div>
+        <p>“This course transformed the way I speak. I feel so much more confident now!”</p>
+        <div class="who"><img src="assets/u1.jpg" alt="" /><span>Priya S.</span></div>
+      </article>
+
+      <article class="card card--review">
+        <div class="stars">★★★★★</div>
+        <p>“The lessons are practical and easy to follow. Highly recommended for beginners!”</p>
+        <div class="who"><img src="assets/u2.jpg" alt="" /><span>Rohan K.</span></div>
+      </article>
+
+      <article class="card card--review">
+        <div class="stars"><span class="dim">★</span>★★★★</div>
+        <p>“I used these techniques in my interview and got selected. Thank you!”</p>
+        <div class="who"><img src="assets/u3.jpg" alt="" /><span>Megha T.</span></div>
+      </article>
+    </div>
+
+    <div class="dots"><i class="is-on"></i><i></i><i></i></div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="container" id="enroll">
+  <div class="cta">
+    <span class="cta__ico">
+      <svg viewBox="0 0 24 24"><path d="M13.5 3.5c3.6.6 6.4 3.4 7 7-2.6 5-6.2 8-10.8 9L6 15.3C7 10.7 9 7.1 13.5 3.5z"/><circle cx="14.8" cy="9.2" r="1.6"/><path d="M6.4 16.4c-1.3.6-2 1.9-2.2 4 2.1-.2 3.4-.9 4-2.2"/></svg>
+    </span>
+
+    <div class="cta__copy">
+      <h3>Ready to Become a Confident Speaker?</h3>
+      <p>Join thousands of learners and start your journey today.</p>
+    </div>
+
+    <a href="#enroll" class="btn btn--white btn--lg">
+      Enroll Now
+      <svg viewBox="0 0 24 24" class="ico"><path d="M4 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </div>
+</section>
+
+<footer class="foot" id="faqs">
+  <div class="container foot__inner">
+    <img src="assets/logo.png" alt="SpeakUp" class="foot__logo" />
+    <nav class="foot__links">
+      <a href="#course">Course</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#curriculum">Curriculum</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#faqs">FAQs</a>
+    </nav>
+    <small>© 2025 SpeakUp. All rights reserved.</small>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById("navToggle");
+  const links = document.getElementById("navLinks");
+
+  toggle.addEventListener("click", () => {
+    const open = links.classList.toggle("is-open");
+    toggle.classList.toggle("is-open", open);
+    toggle.setAttribute("aria-expanded", open);
+  });
+
+  links.querySelectorAll("a").forEach((a) => {
+    a.addEventListener("click", () => {
+      links.classList.remove("is-open");
+      toggle.classList.remove("is-open");
+      toggle.setAttribute("aria-expanded", "false");
+    });
+  });
+</script>
+</body>
+</html>
